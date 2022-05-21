@@ -1,0 +1,16 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(ShiChunMingFont.ttf);
+}
+  
+h2 {
+    font-family: myFirstFont;
+    color: darkgreen;
+}
+
+.main2 {
+    
+    font-family: myFirstFont;
+    
+    color: darkgreen;
+}
