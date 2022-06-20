@@ -18,6 +18,12 @@
 			src: local("StrongFont"), url(StrongFont.ttf); /*StrongFont 字型檔 */
 			font-weight: bold;
 		}
+		@font-face {
+			font-family: StrongFont;
+			/*src: local("cjkFonts 全瀨體"), url(cjkFonts_allseto_v1.11.ttf); /* 改成自己的 Simple & Medium Baseline 字型檔 */
+			src: local("StrongFont"), url(StrongFont.ttf); /*StrongFont 字型檔 */
+			font-weight: bold;
+		}
 		a {
 			border: 3px solid #FF5151;
 			border-radius: 10px;
@@ -27,7 +33,7 @@
 			font-family:ShiChunMingFont; /* 改成自己的 Simple & Medium Baseline 字型檔 */		   
 		}
 		.poems {
-			font-family: ShiChunMingFont; /* Strong Baseline 字型檔 */
+			font-family: StrongFont; /* Strong Baseline 字型檔 */
 		}
 	
 		a:visited { color: #0000EE; }
